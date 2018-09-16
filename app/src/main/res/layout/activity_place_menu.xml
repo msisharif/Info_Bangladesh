@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#90e7e9e9"
+    tools:context="com.example.imrankhan.info_bangladesh.place_menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        android:padding="5dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/landscape_menu_icon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:text="LANDSCAPE"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginRight="15dp"
+                        app:cardElevation="6dp">
+
+                        <com.makeramen.roundedimageview.RoundedImageView
+                            android:id="@+id/dhaka_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:riv_corner_radius="10dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/landscape_division_icon_dhaka"/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:background="@drawable/shape_1"
+                                android:layout_alignParentBottom="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true">
+
+                                <TextView
+                                    android:layout_gravity="top|left"
+                                    android:fontFamily="sans-serif-light"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginHorizontal="15dp"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    android:text="DIVISION: Dhaka"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@android:color/white" />
+
+                                <TextView
+                                    android:layout_gravity="top|left"
+                                    android:fontFamily="sans-serif-light"
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginHorizontal="15dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:textSize="9sp"
+                                    android:textStyle="bold"
+                                    android:text="AREA : 20,509 km²"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@android:color/white" />
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="6dp">
+
+                        <com.makeramen.roundedimageview.RoundedImageView
+                            android:id="@+id/sylhet_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:riv_corner_radius="10dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/landscape_division_icon_sylhet"/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:background="@drawable/shape_1"
+                                android:layout_alignParentBottom="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true">
+
+                                <TextView
+                                    android:layout_gravity="top|left"
+                                    android:fontFamily="sans-serif-light"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginHorizontal="15dp"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    android:text="DIVISION: Sylhet"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@android:color/white" />
+
+                                <TextView
+                                    android:layout_gravity="top|left"
+                                    android:fontFamily="sans-serif-light"
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginHorizontal="15dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:textSize="9sp"
+                                    android:textStyle="bold"
+                                    android:text="AREA : 12,298 km²"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@android:color/white" />
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="30dp">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:layout_marginRight="15dp"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="6dp">
+
+                        <com.makeramen.roundedimageview.RoundedImageView
+                            android:id="@+id/chittagong_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:riv_corner_radius="10dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/landscape_division_icon_chittagong"/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:background="@drawable/shape_1"
+                                android:layout_alignParentBottom="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true">
+
+                                <TextView
+                                    android:layout_gravity="top|left"
+                                    android:fontFamily="sans-serif-light"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginHorizontal="15dp"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    android:text="DIVISION: Chittagong"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@android:color/white" />
+
+                                <TextView
+                                    android:layout_gravity="top|left"
+                                    android:fontFamily="sans-serif-light"
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginHorizontal="15dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:textSize="9sp"
+                                    android:textStyle="bold"
+                                    android:text="AREA : 33,771 km²"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@android:color/white" />
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="6dp">
+
+                        <com.makeramen.roundedimageview.RoundedImageView
+                            android:id="@+id/barisal_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:riv_corner_radius="10dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/landscape_division_icon_barisal"/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:background="@drawable/shape_1"
+                                android:layout_alignParentBottom="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true">
+
+                                <TextView
+                                    android:layout_gravity="top|left"
+                                    android:fontFamily="sans-serif-light"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginHorizontal="15dp"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    android:text="DIVISION : Barisal"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@android:color/white" />
+
+                                <TextView
+                                    android:layout_gravity="top|left"
+                                    android:fontFamily="sans-serif-light"
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginHorizontal="15dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:textSize="9sp"
+                                    android:textStyle="bold"
+                                    android:text="AREA : 13,225 km²"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@android:color/white" />
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="30dp">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginRight="15dp"
+                        app:cardElevation="6dp">
+
+                        <com.makeramen.roundedimageview.RoundedImageView
+                            android:id="@+id/khulna_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:riv_corner_radius="10dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/landscape_division_icon_khulna"/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:background="@drawable/shape_1"
+                                android:layout_alignParentBottom="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true">
+
+                                <TextView
+                                    android:layout_gravity="top|left"
+                                    android:fontFamily="sans-serif-light"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginHorizontal="15dp"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    android:text="DIVISION: Khulna"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@android:color/white" />
+
+                                <TextView
+                                    android:layout_gravity="top|left"
+                                    android:fontFamily="sans-serif-light"
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginHorizontal="15dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:textSize="9sp"
+                                    android:textStyle="bold"
+                                    android:text="AREA : 22,284 km²"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@android:color/white" />
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="6dp">
+
+                        <com.makeramen.roundedimageview.RoundedImageView
+                            android:id="@+id/rajshahi_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:riv_corner_radius="10dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/landscape_division_icon_rajshahi"/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:background="@drawable/shape_1"
+                                android:layout_alignParentBottom="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true">
+
+                                <TextView
+                                    android:layout_gravity="top|left"
+                                    android:fontFamily="sans-serif-light"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginHorizontal="15dp"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    android:text="DIVISION: Rajshaahi"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@android:color/white" />
+
+                                <TextView
+                                    android:layout_gravity="top|left"
+                                    android:fontFamily="sans-serif-light"
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginHorizontal="15dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:textSize="9sp"
+                                    android:textStyle="bold"
+                                    android:text="AREA : 18,174 km²"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@android:color/white" />
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

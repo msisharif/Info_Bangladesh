@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#90e7e9e9"
+    tools:context="com.example.imrankhan.info_bangladesh.place_lists">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.github.florent37.diagonallayout.DiagonalLayout
+            android:id="@+id/diagonalLayout"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:diagonal_angle="0"
+            android:elevation="10dp"
+            app:diagonal_direction="left"
+            app:diagonal_position="bottom">
+
+            <com.flaviofaria.kenburnsview.KenBurnsView
+                android:id="@+id/image_show_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/landscape_division_cover_dhaka"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:background="#ae0d7e84"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true">
+
+                    <TextView
+                        android:id="@+id/title_id"
+                        android:layout_gravity="top|left"
+                        android:fontFamily="sans-serif-light"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:text="DIVISION : Dhaka"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </com.github.florent37.diagonallayout.DiagonalLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:background="#aab30633"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#ab074d51"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="6dp">
+
+            <ListView
+                android:id="@+id/list_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="1dp">
+            </ListView>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

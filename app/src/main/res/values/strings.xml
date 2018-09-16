@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Info. Bangladesh</string>
+
+    <string name="about_app">About App:\n\nTo know about Bangladesh and also provides tourist all necessary info to have a great time touring in Bangladesh.</string>
+
+    <string name="about_dev">About Developer:\n\nMD. Shariful Islam \nEmail : msicseewu@gmail.com</string>
+
+    <!--******************************************** LANDSCAPE *********************************************-->
+
+    <!--******************************************** DHAKA DIVISION *********************************************-->
+
+    <string-array name="dhaka_place_name">
+
+        <item>Ahsan Manzil</item>
+
+        <item>Lalbagh Fort</item>
+
+    </string-array>
+
+    <string-array name="dhaka_place_details">
+
+        <item>In Mughal era, there was a garden house of Sheikh Enayet Ullah, the landlord of Jamalpur Porgona (district), in this place.\n Sheikh Enayet Ullah was a very charming person. He acquired a very big area in Kumortuli (Kumartuli) and included it in his garden house. Here he built a beautiful palace and named it "Rongmohol" (Rangmahal). He used to enjoy here keeping beautiful girls collected from the country and abroad, dressing them with gorgeous dresses and expensive ornaments. There is a saying that, the foujdar of Dhaka (representative of mughal emperor) was attracted to one of the beautiful girls. He invited Sheikh Enayet Ullah to a party one night and killed him in a conspiracy when he was returning home. That girl also committed suicide in anger and sorrow. There was a grave of Sheikh Enayet Ullah in the north-east corner of the palace yard which was ruined in the beginning of the 20th century.</item>
+
+        <item>The Mughal prince Muhammad Azam, third son of Aurangzeb started the work of the fort in 1678 during his vice-royalty in Bengal. He stayed in Bengal for 15 months. The fort remained incomplete when he was called away by his father Aurangzeb.\nShaista Khan was the new subahdar of Dhaka in that time, and he did not complete the fort. In 1684, the daughter of Shaista Khan named Iran Dukht Pari Bibi died there. After her death, he started to think the fort as unlucky, and left the structure incomplete.[2] Among the three major parts of Lalbagh Fort, one is the tomb of Pari Bibi.</item>
+
+    </string-array>
+
+    <string-array name="dhaka_district">
+
+        <item>Dhaka</item>
+
+        <item>Dhaka</item>
+
+    </string-array>
+
+    <string-array name="dhaka_place_pic">
+
+        <item>landscape_division_dhaka_ahsan_manjil</item>
+
+        <item>landscape_division_dhaka_lalbager_kella</item>
+
+    </string-array>
+
+    <string-array name="dhaka_place_rating">
+
+        <item>4.5</item>
+
+        <item>4.5</item>
+
+    </string-array>
+
+    <string-array name="dhaka_address">
+
+        <item> Lalbagh Rd, Dhaka 1211</item>
+
+        <item>2/3, Islampur Rd, Dhaka</item>
+
+    </string-array>
+
+    <!--******************************************** DHAKA DIVISION *********************************************-->
+
+    <!--******************************************** LANDSCAPE *********************************************-->
+
+</resources>
